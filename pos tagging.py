@@ -2,7 +2,6 @@ from collections import Counter
 import nltk
 #text=input("Enter your input:")
 
-#text = "Wordembedding is a feature learning technique in which each word or phrase from the vocabulary is mapped to a N dimension vector of real numbers. Various word embedding methods have been proposed to translate unigrams into understandable input for machine learning algorithms"
 f=open("sample.txt", "r")
 if f.mode == 'r':
     text =f.read()
